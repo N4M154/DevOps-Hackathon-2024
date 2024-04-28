@@ -1,0 +1,43 @@
+.dashboard-container {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+}
+
+.user-menu {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.user-details {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: left;
+}
+
+.card h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+.card p {
+  color: #666;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Adding some hover effects for interactivity */
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,16 @@
+From node:8 as builder
+
+COPY TestApp /TestApp
+
+WORKDIR /TestApp
+
+RUN npm install
+
+RUN $(npm bin)/ng build
+
+
+FROM nginx
+
+COPY --from=builder /TestApp/dist/* /usr/share/nginx/html/
+
+EXPOSE 80

@@ -1,4 +1,4 @@
-##ICT fest 2024 DevOps Hackathon organised by Islamic University of Technology
+# ICT fest 2024 DevOps Hackathon organised by Islamic University of Technology
 
 ## Contributors:
 
